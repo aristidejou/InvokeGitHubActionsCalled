@@ -34,7 +34,4 @@ jobs:
         run: | 
           echo Hello World !
           echo ${{ inputs.Input1 }}
-          echo ${{ inputs.Input2 }}
-          echo ${{ inputs.Input3 }}
-          echo ${{ inputs.Input4 }}
-          echo ${{ secrets.NAME }}
+         
